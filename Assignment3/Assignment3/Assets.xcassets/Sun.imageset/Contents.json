@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "warm-sun-yellow-background-leto-bliki-solar-rays_182511-1883.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "warm-sun-yellow-background-leto-bliki-solar-rays_182511-1883@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "warm-sun-yellow-background-leto-bliki-solar-rays_182511-1883@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
