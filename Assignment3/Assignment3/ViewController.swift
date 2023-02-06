@@ -38,15 +38,14 @@ class ViewController: UIViewController {
             buttonOne.setTitle("Start Timer", for: .normal)
         } else {
             timer2.invalidate()
-            playSound()
             totalSeconds = timerValue.countDownDuration
             timer2 = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateSeconds), userInfo: nil, repeats: true)
         }
     }
     
     func displayCurrentTime() {
-        var currentDate = Date()
-        var format = DateFormatter()
+        let currentDate = Date()
+        let format = DateFormatter()
         format.dateFormat = "EEE, dd MMM yyyy HH:mm:ss"
         currentTime.text = format.string(from: currentDate)
         let currentHour = currentTime.text!.suffix(8)
@@ -91,20 +90,14 @@ class ViewController: UIViewController {
             totalSeconds! -= 1
         } else {
             timer2.invalidate()
+            remainingTimeLabel.text = "Time Remaining: 00:00:00"
             buttonOne.setTitle("Stop Music", for: .normal)
             playSound()
         }
     }
     func playSound() {
-        let path = Bundle.main.path(forResource: "music", ofType: "mp3")!
-        let url = URL(fileURLWithPath: path)
-        do {
-            player = try AVAudioPlayer(contentsOf: url)
-            player?.play()
-        } catch {
-            
-        }
-            
+        player = try! AVAudioPlayer(contentsOf: Bundle.main.url(forResource:"powerful-beat-121791",withExtension: "mp3")!)
+        player.play()
         }
         @IBOutlet weak var backgroundImage: UIImageView!
     }

@@ -19,8 +19,8 @@
                             <imageView opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sun" translatesAutoresizingMaskIntoConstraints="NO" id="pAP-VS-7kp">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="clock" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYu-HZ-4qI">
-                                <rect key="frame" x="176.33333333333334" y="89" width="40.666666666666657" height="20.333333333333329"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thu, Jan 1 1970 00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tYu-HZ-4qI">
+                                <rect key="frame" x="99.666666666666686" y="89" width="194" height="20.333333333333329"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -53,10 +53,10 @@
                             <constraint firstAttribute="bottom" secondItem="pAP-VS-7kp" secondAttribute="bottom" id="9x5-ol-1s4"/>
                             <constraint firstItem="pAP-VS-7kp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="IMP-lb-NEE"/>
                             <constraint firstItem="u5q-zy-WYX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="Io9-IM-gmx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pAP-VS-7kp" secondAttribute="trailing" id="LNA-Xb-9Q2"/>
+                            <constraint firstAttribute="trailing" secondItem="pAP-VS-7kp" secondAttribute="trailing" id="LNA-Xb-9Q2"/>
                             <constraint firstItem="h2R-A0-ELm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SaP-c2-Tqp"/>
                             <constraint firstItem="h2R-A0-ELm" firstAttribute="top" secondItem="u5q-zy-WYX" secondAttribute="bottom" constant="10" id="U6A-v3-qhb"/>
-                            <constraint firstItem="pAP-VS-7kp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="U8q-lY-4Wb"/>
+                            <constraint firstItem="pAP-VS-7kp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="U8q-lY-4Wb"/>
                             <constraint firstItem="tYu-HZ-4qI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="XBS-tL-FnW"/>
                             <constraint firstItem="Cje-4Z-BdF" firstAttribute="top" secondItem="h2R-A0-ELm" secondAttribute="bottom" constant="10" id="ZWg-4z-l33"/>
                             <constraint firstItem="Cje-4Z-BdF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kIh-JK-rBE"/>
